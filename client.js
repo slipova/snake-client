@@ -11,7 +11,10 @@ const connect = function() {
   });
   conn.on('connect', () => {
     console.log('Successfully connected to game sever.');
-    conn.write('Name: BLU')
+    conn.write('Name: BLU');
+
+
+
   });
 
   // interpret incoming data as text
