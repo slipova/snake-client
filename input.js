@@ -20,6 +20,8 @@ const setupInput = (conn) => {
         connection.write('Move: down')
       } else if (key === 'd') {
         connection.write('Move: right')
+      } else if (key === 'r') { ///Outputs message twice and with 'Say:' part
+        connection.write('Say: whoop')
       }
     });
   };
